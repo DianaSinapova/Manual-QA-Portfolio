@@ -7,42 +7,34 @@ Test Case ID- UC1-1
 
 ### Environment:
 
-* Browser:
-* OS:
-* Version:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
 
-### Preconditions: User is not logged
-
+### Preconditions: - User is not logged in
 
 ### Steps to Reproduce:
-
-1. Open the aplikation from the URL
-2. Observe the Navbar and all buttons are they present and in the correct plays
+1. Open the application using the URL.
+2. Observe the Navbar and check if all buttons are in the correct positions.
 
 ### Expected Result:
-
-User See all buttons in Navbar in correct plays:
+All buttons in the Navbar are in the correct positions:
 - "SIGN IN" and "SIGN UP FOR FREE" buttons on the left
-- back to Home page link on the righ
+- "Back to Home page" link on the right
 
 ### Actual Result:
-
-The button are swapped:
-"SIGN IN" and "SIGN UP FOR FREE" buttons on the right
-- back to Home page link on the jeft
+The buttons are swapped:
+- "SIGN IN" and "SIGN UP FOR FREE" buttons are on the right
+- "Back to Home page" link is on the left
 
 ### Severity:
-
-Low 
+Low
 
 ### Priority:
-
-Low 
+Low
 
 ### Status:
-
-New / Open / In Progress / Fixed / Retest / Closed
-
+New
 
 
 
