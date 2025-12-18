@@ -29,5 +29,4 @@ This repository contains **manual testing artifacts** created for **learning and
 * Jira (simulated)
 * GitHub
 
-> ⚠️ All applications are **demo projects** used for educational purposes only.
-> No real production or company data is included.
+
