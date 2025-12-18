@@ -2,10 +2,12 @@
 
 UC-1-1
 
-### Title: Verify navigation bar buttons for guest users
+### Title: 
+Verify navigation bar buttons for guest users
 
 
-### Preconditions: - User is not logged in
+### Preconditions: 
+- User is not logged in
 
 
 ### Test Steps:
@@ -23,47 +25,77 @@ All navigation buttons are displayed correctly:
 
 Buttons are not displayed according to the requirements.
 
-### Status: Fail
+### Status: 
+Fail
+
+###Bug ID: 
+BUG-1
 
 
-###Bug ID: BUG-1
+//////////////////////////////////////////////////////////////////////
 
 
 
+### Test Case ID: 1
 
+UC-1-2
 
+### Title: 
+Validate that Carousel with three slides are with correct text 
 
-### Test Case ID: 2
-
-UC-XX
-
-### Title:
-
-Short and clear description of what is being tested
 
 ### Preconditions:
-
-* User state (logged in / not logged in)
-* Any required setup
+- User is not logged in
 
 ### Test Steps:
+1. Open the application using the URL.
+2. Observe the carousel with three slides.
 
-1. Step 1
-2. Step 2
-3. Step 3
+### Expected Result:
+The carousel should contain three slides with the following text:
+- "Be part of our community"
+- "Already have an account?"
+- "Enjoy our site!"
+
+### Actual Result:
+The third slide contains a typo:
+- "Enjoy out site!" instead of "Enjoy our site!"
+
+### Status:
+Fail
+
+### Bug ID:
+BUG-2
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+
+
+
+### Test Case ID: 1
+
+UC-1-3
+
+### Title: 
+
+
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application using the URL.
+
 
 ### Expected Result:
 
-Describe what should happen if the system works correctly.
 
 ### Actual Result:
 
-(only if test fails)
 
 ### Status:
-
-Pass / Fail
+Fail
 
 ### Bug ID:
 
-(if applicable)
