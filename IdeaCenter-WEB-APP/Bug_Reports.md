@@ -1,8 +1,10 @@
 ### Bug ID: 1
 
-Test Case ID- UC1-1
+Test Case ID:
+UC1-1
 
-### Title: Swapped places button on Navbar on Home page for not logged users
+### Title: 
+Swapped places button on Navbar on Home page for not logged users
 
 
 ### Environment:
@@ -37,50 +39,45 @@ Low
 New
 
 
+//////////////////////////////////////////////////////////////////////////////////////
+
 
 
 ### Bug ID: 2
 
-BUG-XX
+### Test Case ID:
+UC1-2
 
 ### Title:
-
-Clear and concise description of the issue
+Syntax error on carousel text on Home page for not logged users
 
 ### Environment:
-
-* Browser:
-* OS:
-* Version:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
 
 ### Preconditions:
-
-* User state (logged in / not logged in)
+- User is not logged in
 
 ### Steps to Reproduce:
-
-1. Step 1
-2. Step 2
-3. Step 3
+1. Open the application using the provided URL.
+2. Observe the carousel slides and check the text on each slide.
 
 ### Expected Result:
-
-What should happen.
+The carousel text on the third slide should be:
+- "Enjoy our site!"
 
 ### Actual Result:
-
-What actually happens.
+The third slide contains a typo:
+- "Enjoy out site!" instead of "Enjoy our site!"
 
 ### Severity:
-
-Low / Medium / High / Critical
+Low
 
 ### Priority:
-
-Low / Medium / High
+Low
 
 ### Status:
-
-New / Open / In Progress / Fixed / Retest / Closed
+New
 
 
