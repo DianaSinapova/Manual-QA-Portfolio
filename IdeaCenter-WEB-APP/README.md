@@ -23,4 +23,4 @@ This folder contains manual testing documentation for the **IdeaCenter Web Appli
 * Test cases (TestRail-style)
 * Bug reports (Jira-style)
 
-> ⚠️ This is a demo application used for educational purposes only.
+
