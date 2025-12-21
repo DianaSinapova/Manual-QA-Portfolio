@@ -31,4 +31,37 @@ Pass / Fail
 
 ### Bug ID:
 
-(if applicable)
+
+
+
+
+
+
+
+### Test Case ID: 
+
+UC-
+
+### Title: 
+
+
+
+### Preconditions:
+-
+
+### Test Steps:
+
+
+
+### Expected Result:
+
+
+### Actual Result:
+
+
+### Status:
+Fail
+
+### Bug ID:
+
+
