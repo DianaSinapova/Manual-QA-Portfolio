@@ -8,9 +8,20 @@ This folder contains manual testing documentation for the **IdeaCenter Web Appli
 
 ## Test Scope
 
-* Login functionality
-* Basic UI validations
-* Error handling
+### Implemented
+- Home Page (logged and not logged users)
+- Navigation and Navbar buttons
+- Carousel functionality
+- Login and Registration functionality
+- Basic UI validations
+- Error handling
+- Bug reporting and traceability
+
+### Planned
+- Create Idea functionality
+- User Profile management
+- Idea management (edit, delete)
+- Authentication flows (logout, additional validations)
 
 ## Test Environment
 
