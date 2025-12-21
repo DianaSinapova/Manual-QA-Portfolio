@@ -81,7 +81,7 @@ Low
 New
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -167,9 +167,50 @@ Medium
 New
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
+### Bug ID: 
+BUG-5
 
+### Test Case ID:
+UC2-1
+
+### Title: 
+Alternative sign up options via Google or Facebook buttons are missing on Sign Up page
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Click on the "SIGN UP FOR FREE" button.
+2. Observe that all input fields and buttons are present on the Sign Up page.
+
+### Expected Result:
+The Sign Up page contains the following:
+- Username field
+- Email field
+- Password field
+- Repeat Password field
+- Checkbox for agreeing to Terms of Service
+- Register button
+- Alternative sign up options via Google or Facebook buttons
+
+### Actual Result:
+Alternative sign up options via Google or Facebook buttons are missing on the Sign Up page.
+
+### Severity:
+Low
+
+### Priority:
+Low
+
+### Status:
+New
 
