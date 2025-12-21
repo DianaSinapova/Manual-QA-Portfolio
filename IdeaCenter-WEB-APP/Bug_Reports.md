@@ -81,3 +81,95 @@ Low
 New
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+### Bug ID:
+BUG-3
+
+### Related Test Case:
+UC1-4
+
+### Title:
+Incorrect call-to-action button text on carousel for not logged users
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application using the provided URL.
+2. Observe the call-to-action buttons on the carousel slides.
+
+### Expected Result:
+Two of the carousel slides contain call-to-action buttons with text:
+- "SIGN UP FOR FREE"
+- "SIGN IN"
+
+### Actual Result:
+One of the carousel slides displays a button with text:
+"Register now" instead of "SIGN UP FOR FREE".
+
+### Severity:
+Low
+
+### Priority:
+Low
+
+### Status:
+New
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+### Bug ID:
+BUG-4
+
+### Related Test Case:
+UC1-5
+
+### Title:
+"Log In" button on Navbar does not redirect to Log In page
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application using the provided URL.
+2. Click on the "Log In" button in the Navbar.
+
+### Expected Result:
+User is redirected to the Log In page.
+
+### Actual Result:
+User remains on the Home page and no redirection occurs.
+
+### Severity:
+Medium
+
+### Priority:
+Medium
+
+### Status:
+New
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
