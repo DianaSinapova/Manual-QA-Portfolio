@@ -28,11 +28,17 @@ Food Management
 
 Bug reporting and traceability
 
+
+
+
 Environment: Demo / Test
 
 Browser: Google Chrome
 
 OS: Windows
+
+
+
 
 Included Materials
 
