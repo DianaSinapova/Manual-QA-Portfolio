@@ -1,0 +1,116 @@
+### Test Case ID:
+UC6-1
+
+### Title:
+Validate that the VIEW button leads to the View Food Card page
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the VIEW button on a food card
+
+### Expected Result:
+The user is redirected to the corresponding View Food Card page
+
+### Actual Result:
+N/A
+
+### Status:
+Fail
+
+### Bug ID:
+BUGID-5
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC6-2
+
+### Title:
+Validate that the EDIT button leads to the Edit Food page
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the EDIT button on a food card
+
+### Expected Result:
+The user is redirected to the corresponding Edit Food page
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC6-3
+
+### Title:
+Validate that the DELETE button removes the food card
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the DELETE button on a food card
+
+### Expected Result:
+The selected food card is removed from the list
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC6-4
+
+### Title:
+Validate that editing a food card from the Edit Food page is possible
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the EDIT button on a Food card
+2. Fill all fields with new data
+3. Click the EDIT button on the Edit Food page
+
+### Expected Result:
+The user is redirected to the Home page for logged-in users,
+and the Food card is updated with the new data
+
+### Actual Result:
+The EDIT button on the Edit Food page is not working
+
+### Status:
+Fail
+
+### Bug ID:
+BUGID-6
+
+
+
+////////////////////////////////////////////////////////////////////////////////////

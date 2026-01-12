@@ -1,0 +1,60 @@
+### Test Case ID:
+UC4-1
+
+### Title:
+Validate that all sections, fields, and buttons on the My Profile page are present
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the top-left icon on the Navbar ("My Profile")
+2. Observe the My Profile page
+
+### Expected Result:
+The My Profile page includes the following sections:
+- On the left: an empty profile picture, the Username, and an EDIT button
+- On the right: User's information including Full Name, Email, and Total Food Reviews counter
+- Below User's information: "About Me" section (empty by default) and "About My Food Passion" section (also empty by default)
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC4-2
+
+### Title:
+Validate that the EDIT button on My Profile page works correctly
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the top-left icon on the Navbar ("My Profile")
+2. Click on the EDIT button
+3. Update all fields with valid data
+4. Click on the SAVE/UPDATE button (or EDIT button, depending on UI)
+
+### Expected Result:
+The user is redirected back to the My Profile page, 
+and the updated data from the Edit page is displayed correctly
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+

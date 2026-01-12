@@ -1,0 +1,32 @@
+### Bug ID:
+BUG-1  
+
+### Title:
+"LEARN MORE" button does not lead to About Us Page
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application from the URL
+2. Click on the "Learn More" button
+
+### Expected Result:
+- After clicking the "LEARN MORE" button, the user is redirected to the About Us Page.
+
+### Actual Result:
+- After clicking the "LEARN MORE" button, the page just scrolls and does not navigate.
+
+### Severity:
+High
+
+### Priority:
+High
+
+### Status:
+New

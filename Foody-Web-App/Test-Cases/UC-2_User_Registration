@@ -1,0 +1,192 @@
+### Test Case ID:
+UC2-1
+
+### Title:
+Validate that all required fields and the 
+"SIGN UP" button are present on the Register page
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "SIGN UP" button
+3. Observe all input fields and the "SIGN UP" button on the Register page
+
+### Expected Result:
+The Register page displays all required fields and the "SIGN UP" button:
+- Username
+- Email
+- First Name
+- Middle Name
+- Last Name
+- Password
+- Repeat Password
+- "SIGN UP" button
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC2-2
+
+### Title:
+Validate that the hyperlink leading to the Terms and Conditions document is present and functional
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "SIGN UP" button
+3. Click on the hyperlink leading to the Terms and Conditions document
+
+### Expected Result:
+After clicking the hyperlink, the user is redirected to the Terms and Conditions document
+
+### Actual Result:
+The hyperlink leading to the Terms and Conditions document does not exist
+
+### Status:
+Fail
+
+### Bug ID:
+BUGID-3
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC2-3
+
+### Title:
+Validate that the "LOG IN" button redirects to the Log In page
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+
+### Expected Result:
+The user is redirected to the Log In page
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC2-4
+
+### Title:
+Validate that registration with valid credentials is successful
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "SIGN UP" button
+3. Fill in all required fields with valid credentials
+4. Click on the "SIGN UP" button
+
+### Expected Result:
+The user is redirected to the Home page for logged-in users
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC2-5
+
+### Title:
+Validate registration with empty required fields except Password and Confirm Password
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "SIGN UP" button
+3. Leave all required fields empty except Password and Confirm Password
+4. Enter a valid password in both Password and Confirm Password fields
+5. Click on the "SIGN UP" button
+
+### Expected Result:
+Appropriate error messages are displayed for the empty required fields
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC2-6
+
+### Title:
+Validate registration with invalid data
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "SIGN UP" button
+3. Fill all required fields with invalid data
+4. Click on the "SIGN UP" button
+
+### Expected Result:
+Appropriate error messages are displayed for the invalid input data
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A

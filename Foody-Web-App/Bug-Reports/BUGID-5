@@ -1,0 +1,32 @@
+### Bug ID:
+BUG-5  
+
+### Title:
+View button on Food card is missing
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is logged in
+
+### Steps to Reproduce:
+1. Open the application
+2. Observe the buttons on all Food cards
+
+### Expected Result:
+- All Food cards contain VIEW, EDIT, and DELETE buttons.
+
+### Actual Result:
+- The VIEW button on the Food card is missing.
+
+### Severity:
+High
+
+### Priority:
+High
+
+### Status:
+New
