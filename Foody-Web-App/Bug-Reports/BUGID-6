@@ -1,0 +1,34 @@
+### Bug ID:
+BUG-6  
+
+### Title:
+Editing a created food card is not possible
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is logged in
+
+### Steps to Reproduce:
+1. Click on the Edit button on a Food card.
+2. Fill all fields with data.
+3. Click on the Edit button to save changes.
+
+### Expected Result:
+- The user is redirected to the Home page for logged users.
+- The changes on the Food card are saved and displayed.
+
+### Actual Result:
+- The Edit button on the Edit Food page does not work; changes are not saved.
+
+### Severity:
+High
+
+### Priority:
+High
+
+### Status:
+New

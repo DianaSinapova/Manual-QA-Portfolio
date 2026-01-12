@@ -1,0 +1,33 @@
+### Bug ID:
+BUG-4  
+
+### Title:
+Forgot Password link is not working
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application from the URL
+2. Click on the LOG IN button
+3. Click on the "Forgot Password" link
+
+### Expected Result:
+- The user is redirected to a page where they can create a new password.
+
+### Actual Result:
+- The "Forgot Password" link on the Sign In page is not working.
+
+### Severity:
+High
+
+### Priority:
+High
+
+### Status:
+New

@@ -1,0 +1,187 @@
+### Test Case ID:
+UC3-1
+
+### Title:
+Validate that all fields and the LOG IN button are present
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Observe the available fields and the LOG IN button
+
+### Expected Result:
+The page displays:
+- Username field
+- Password field
+- LOG IN button
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC3-2
+
+### Title:
+Validate that the "Forgot Password" option is working
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Click on the "Forgot password" link
+
+### Expected Result:
+The user is redirected to a page
+where they can create a new password
+
+### Actual Result:
+The "Forgot password" link on the LOG IN page is not working
+
+### Status:
+Fail
+
+### Bug ID:
+BUGID-4
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC3-3
+
+### Title:
+Validate that the "CREATE NEW" button leads to the Sign Up page
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Click on the "CREATE NEW" button
+
+### Expected Result:
+The user is redirected to the Sign Up page
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+### Test Case ID:
+UC3-4
+
+### Title:
+Validate that logging in with empty fields is not possible
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Leave all fields empty
+4. Click on the "LOG IN" button
+
+### Expected Result:
+An error message is displayed
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC3-5
+
+### Title:
+Validate that logging in with valid credentials is successful
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Fill in all fields with valid credentials
+4. Click on the "LOG IN" button
+
+### Expected Result:
+User is redirected to the Home page for logged-in users
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC3-6
+
+### Title:
+Validate that logging in with invalid credentials shows an error message
+
+### Preconditions:
+- User is not logged in
+
+### Test Steps:
+1. Open the application from the URL
+2. Click on the "LOG IN" button
+3. Fill in all fields with invalid credentials
+4. Click on the "LOG IN" button
+
+### Expected Result:
+An error message is displayed indicating invalid credentials
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+

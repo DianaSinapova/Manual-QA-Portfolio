@@ -1,0 +1,99 @@
+### Test Case ID:
+UC5-1
+
+### Title:
+Validate that all fields and the ADD button on the Add Food page are present
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the ADD FOOD button
+2. Observe all fields and the ADD button on the page
+
+### Expected Result:
+The Add Food page contains the following fields and button:
+- Food Name field
+- Describe Your Food field
+- Add a Picture of Your Food field
+- ADD button
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC5-2
+
+### Title:
+Validate that adding a new food card is possible
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Click on the ADD FOOD button
+2. Fill in all required fields
+3. Click on the ADD button
+
+### Expected Result:
+The user is redirected to the Home page for logged-in users, 
+and the newly added food card is displayed correctly
+
+### Actual Result:
+N/A
+
+### Status:
+Pass
+
+### Bug ID:
+N/A
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+### Test Case ID:
+UC5-3
+
+### Title:
+Validate that all buttons on each food card are present
+
+### Preconditions:
+- User is logged in
+
+### Test Steps:
+1. Observe all food cards on the page
+2. Check for the presence of buttons on each card
+
+### Expected Result:
+Each food card contains the following buttons:
+- VIEW
+- EDIT
+- DELETE
+
+### Actual Result:
+"View" button on Food card is missing
+
+### Status:
+Fail
+
+### Bug ID:
+BUGID-5
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+

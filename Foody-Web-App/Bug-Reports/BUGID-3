@@ -1,0 +1,33 @@
+### Bug ID:
+BUG-3  
+
+### Title:
+Hyperlink to Terms and Conditions document does not exist
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application from the URL
+2. Click on the SIGN UP button
+3. Look for the hyperlink to the Terms and Conditions document
+
+### Expected Result:
+- After clicking the hyperlink, the user is redirected to the Terms and Conditions document.
+
+### Actual Result:
+- The hyperlink to the Terms and Conditions document does not exist.
+
+### Severity:
+High
+
+### Priority:
+High
+
+### Status:
+New

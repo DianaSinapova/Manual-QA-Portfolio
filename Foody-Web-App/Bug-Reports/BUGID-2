@@ -1,0 +1,33 @@
+### Bug ID:
+BUG-2  
+
+### Title:
+"Join US" picture is clickable but does not lead to SIGN UP page
+
+### Environment:
+- Browser: Google Chrome 120
+- OS: Windows 10
+- Version: Demo / Test
+
+### Preconditions:
+- User is not logged in
+
+### Steps to Reproduce:
+1. Open the application from the URL
+2. Scroll down
+3. Click on the "Join US" picture
+
+### Expected Result:
+- The "Join US" picture in the Sign Up Now section is clickable and redirects the user to the SIGN UP page.
+
+### Actual Result:
+- The "Join US" picture is not clickable and does not redirect to the SIGN UP page.
+
+### Severity:
+Medium
+
+### Priority:
+Medium
+
+### Status:
+New
