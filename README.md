@@ -20,7 +20,6 @@ This repository contains **manual testing artifacts** created for **learning and
 * Test case design
 * Bug reporting
 * Functional testing
-* Regression and smoke testing
 * GitHub basics for QA
 
 ## Tools & Technologies
